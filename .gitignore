@@ -1,0 +1,5 @@
+# Build Outputs
+bin/
+obj/
+.vs/
+crashlog.txt
