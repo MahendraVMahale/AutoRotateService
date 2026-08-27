@@ -4,7 +4,7 @@ A lightweight background Windows service written in C# (.NET) that enables dynam
 
 Instead of abrupt, unwanted display flips, AutoRotateService displays an Android-style floating overlay button at the bottom-right of your screen whenever physical tilt is detected. Clicking the icon confirms the rotation; ignoring it leaves your current screen orientation untouched.
 
-## 🛠️ Hardware & OS Tested
+## 🛠️ Tested On (System Specifications)
 
 - **Device:** Dell Latitude 7420 (Non 2-in-1 Clamshell Variant)
 - **Processor:** Intel Core i7
