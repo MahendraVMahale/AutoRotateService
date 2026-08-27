@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Assembly Metadata for Windows Task Manager -->
+    <AssemblyName>AutoRotateService_V1.0.1</AssemblyName>
+    <!-- <Title>AutoRotateService V1.0.1</Title> -->
+    <Product>AutoRotateService V1.0.1</Product>
+    <Description>Background Auto-Rotate Utility for Windows</Description>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+
+    <!-- App Icon (Make sure app.ico is in your project folder) -->
+    <ApplicationIcon>atom.ico</ApplicationIcon>
+
+    <!-- Compression without WPF Trimming Errors -->
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+    <DebuggerSupport>false</DebuggerSupport>
+  </PropertyGroup>
+</Project>
